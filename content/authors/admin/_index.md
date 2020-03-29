@@ -50,6 +50,8 @@ user_groups:
 - Visitors
 ---
 
+<br>
+
 This course will give students a foundation in the principles and practice of data visualization, particularly as applied to scientific and technical data. 
 
 We will have weekly lectures, covering a wide variety of topics including human perception, color theory, principles of visual design, etc. We will also have weekly hands-on laboratory sessions in which students will have the opportunity to put the lecture material into practice. This year, we will be adding additional emphasis on larger issues of scientific communication— after all, that's one of the main reasons we make visualizations! 
