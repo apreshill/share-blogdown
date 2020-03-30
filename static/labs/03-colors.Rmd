@@ -27,7 +27,7 @@ There are 10 challenges total- none are in the "continuous colors" section, but 
 # Slides for today
 
 ```{r}
-knitr::include_url("slides/03-slides.html")
+knitr::include_url("/slides/03-slides.html")
 ```
 
 # Packages

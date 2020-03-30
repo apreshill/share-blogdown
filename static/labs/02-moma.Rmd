@@ -25,7 +25,7 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALS
 # Slides for today
 
 ```{r}
-knitr::include_url("slides/02-slides.html")
+knitr::include_url("/slides/02-slides.html")
 ```
 
 

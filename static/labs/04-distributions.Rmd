@@ -18,7 +18,7 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALS
 # Slides for today
 
 ```{r echo = FALSE}
-knitr::include_url("slides/04-slides.html")
+knitr::include_url("/slides/04-slides.html")
 ```
 
 # Packages
