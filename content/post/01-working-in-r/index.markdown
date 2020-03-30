@@ -1,28 +1,12 @@
 ---
-title: 'Lab 01'
-subtitle: 'Nathan’s Hot-Dog Eating Contest'
-summary: Nathan’s Hot-Dog Eating Contest
 date: "2018-04-09T00:00:00Z"
-featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+featured: false
 image:
-  placement: 2
   caption: 'Image credit: [**Beyond Meat on Unsplash**](https://unsplash.com/photos/ib5iJHRD5PY)'
   focal_point: ""
+  placement: 2
   preview_only: true
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-
 links:
 - icon: flask
   icon_pack: fas
@@ -32,6 +16,10 @@ links:
   icon_pack: fas
   name: slides
   url: /slides/01-slides.html
+projects: []
+subtitle: Nathan’s Hot-Dog Eating Contest
+summary: Nathan’s Hot-Dog Eating Contest
+title: Lab 01
 ---
 
 ## Readings
