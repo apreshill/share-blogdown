@@ -27,7 +27,7 @@ links:
 - icon: flask
   icon_pack: fas
   name: lab
-  url: /labs/05-tables.html
+  url: https://apreshill.github.io/data-vis-labs-2018/05-tables.html
 - icon: magic
   icon_pack: fas
   name: slides
