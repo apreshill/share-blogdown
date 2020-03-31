@@ -13,7 +13,7 @@ output:
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
-knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, cache = TRUE)
+knitr::opts_chunk$set(error = TRUE, comment = NA, warnings = FALSE, errors = FALSE, messages = FALSE, tidy = FALSE, fig.path= "01-figs/")
 ```
 
 ```{r load-packages, include = FALSE}
@@ -57,7 +57,7 @@ library(here)
 
 Next, we load some data. You can use the following chunk to load it in from a link:
 
-```{r eval = FALSE}
+```{r}
 hot_dogs <- read_csv("http://bit.ly/cs631-hotdog", 
     col_types = cols(
       gender = col_factor(levels = NULL)
@@ -66,8 +66,8 @@ hot_dogs <- read_csv("http://bit.ly/cs631-hotdog",
 
 Or you can save the file at the link to a local CSV file. I did this and saved my file in a folder called `data`, then built up the file path to the CSV using `here`:
 
-```{r}
-hot_dogs <- read_csv(here::here("data", "hot_dog_contest.csv"), 
+```{r eval = FALSE}
+hot_dogs <- read_csv(here::here("static/labs/data", "hot_dog_contest.csv"), 
     col_types = cols(
       gender = col_factor(levels = NULL)
     ))
@@ -186,7 +186,7 @@ Let's work with this new dataset! Do the following:
   </div>
 </div>
 
-```{r eval = FALSE}
+```{r}
 hdm_affil <- read_csv("http://bit.ly/cs631-hotdog-affiliated", 
     col_types = cols(
       affiliated = col_factor(levels = NULL), 
@@ -197,8 +197,8 @@ hdm_affil <- read_csv("http://bit.ly/cs631-hotdog-affiliated",
 ```
 
 
-```{r}
-hdm_affil <- read_csv(here::here("data", "hot_dog_contest_with_affiliation.csv"), 
+```{r eval = FALSE}
+hdm_affil <- read_csv(here::here("static/labs/data", "hot_dog_contest_with_affiliation.csv"), 
     col_types = cols(
       affiliated = col_factor(levels = NULL), 
       gender = col_factor(levels = NULL)

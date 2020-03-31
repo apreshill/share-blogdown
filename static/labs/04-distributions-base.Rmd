@@ -12,7 +12,7 @@ output:
     code_folding: hide
 ---
 ```{r setup, include = FALSE, cache = FALSE}
-knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALSE, message = FALSE, tidy = FALSE, cache = FALSE)
+knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALSE, message = FALSE, tidy = FALSE, cache = FALSE, fig.path= "04-figs/")
 library(RColorBrewer)
 library(wesanderson)
 library(ggthemes)
